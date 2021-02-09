@@ -1,0 +1,15 @@
+ab - ACCEPT
+abbbbcdef - ACCEPT
+a U b* - ACCEPT
+U - REJECT
+E - ACCEPT
+(a U b) U 1 - ACCEPT
+(a) U (b) - ACCEPT
+(aa U (b) - REJECT
+(ab*c* U b??) - REJECT
+*(ab) - REJECT
+a++ - REJECT
+a+ U b* U c? U E - ACCEPT
+1234E - REJECT
+1234? - ACCEPT
+1a* U 2*b U 3+c+ 4+d? - ACCEPT

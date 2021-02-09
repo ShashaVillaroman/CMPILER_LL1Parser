@@ -1,0 +1,15 @@
+ab
+abbbbcdef
+a U b*
+U
+E
+(a U b) U 1
+(a) U (b)
+(aa U (b)
+(ab*c* U b??)
+*(ab)
+a++
+a+ U b* U c? U E
+1234E
+1234?
+1a* U 2*b U 3+c+ 4+d?
